@@ -127,12 +127,4 @@ You can add items individually using the provided sample data structure:
 - **Set Up Production Database:** Preferably PostgreSQL.
 - **Deploy Application:** Follow platform-specific instructions.
 
----
 
-## **License**
-
-This project is licensed under the MIT License.
-
----
-
-*For more details, please refer to the full documentation or contact the maintainer.*
