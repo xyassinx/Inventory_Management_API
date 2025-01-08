@@ -90,41 +90,7 @@ An **Inventory Management API** built with **Django** and **Django REST Framewor
 - Uses **Basic Authentication**.
 - Include your username and password in the request headers.
 
----
 
-## **Testing the API**
 
-Use tools like **Postman** or **curl** to interact with the API.
-
-- **Example with curl:**
-
-  ```bash
-  curl -u username:password http://127.0.0.1:8000/api/items/
-  ```
-
----
-
-## **Sample Data**
-
-You can add items individually using the provided sample data structure:
-
-```json
-{
-  "name": "Avocado",
-  "price": 230,
-  "category": "Grocery",
-  "quantity": 10,
-  "description": "Fresh ripe avocados rich in nutrients."
-}
-```
-
----
-
-## **Deployment**
-
-- **Choose a Hosting Platform:** Heroku, PythonAnywhere, etc.
-- **Configure Settings:** Set `DEBUG = False`, configure allowed hosts.
-- **Set Up Production Database:** Preferably PostgreSQL.
-- **Deploy Application:** Follow platform-specific instructions.
 
 
